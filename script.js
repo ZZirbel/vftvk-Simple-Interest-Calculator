@@ -21,7 +21,7 @@ function validate()
     if(!positive)
     {
     alert("Enter a positive number");
-    principal.focus();
+    document.getElementById("principal").focus();
     return false;
     }
 }
